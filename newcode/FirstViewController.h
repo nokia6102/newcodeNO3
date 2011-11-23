@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AddArray.h"
 @interface FirstViewController : UIViewController
+
 
 @end

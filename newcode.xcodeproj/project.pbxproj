@@ -18,6 +18,7 @@
 		DB990C96147D3BBD005E6135 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB990C95147D3BBD005E6135 /* SecondViewController.m */; };
 		DB990C99147D3BBD005E6135 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB990C97147D3BBD005E6135 /* FirstView.xib */; };
 		DB990C9C147D3BBD005E6135 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB990C9A147D3BBD005E6135 /* SecondView.xib */; };
+		DB990CA4147D3D44005E6135 /* AddArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DB990CA3147D3D44005E6135 /* AddArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +26,21 @@
 		DB990C7C147D3BBD005E6135 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB990C7E147D3BBD005E6135 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB990C80147D3BBD005E6135 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DB990C84147D3BBD005E6135 /* newcode-Info.plist */ = {isa = PBXFileReference; path = "newcode-Info.plist"; sourceTree = "<group>"; };
+		DB990C84147D3BBD005E6135 /* newcode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "newcode-Info.plist"; sourceTree = "<group>"; };
 		DB990C86147D3BBD005E6135 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB990C88147D3BBD005E6135 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DB990C8A147D3BBD005E6135 /* newcode-Prefix.pch */ = {isa = PBXFileReference; path = "newcode-Prefix.pch"; sourceTree = "<group>"; };
-		DB990C8B147D3BBD005E6135 /* newcodeAppDelegate.h */ = {isa = PBXFileReference; path = newcodeAppDelegate.h; sourceTree = "<group>"; };
+		DB990C8A147D3BBD005E6135 /* newcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "newcode-Prefix.pch"; sourceTree = "<group>"; };
+		DB990C8B147D3BBD005E6135 /* newcodeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newcodeAppDelegate.h; sourceTree = "<group>"; };
 		DB990C8C147D3BBD005E6135 /* newcodeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newcodeAppDelegate.m; sourceTree = "<group>"; };
 		DB990C8F147D3BBD005E6135 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		DB990C91147D3BBD005E6135 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		DB990C91147D3BBD005E6135 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		DB990C92147D3BBD005E6135 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DB990C94147D3BBD005E6135 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		DB990C94147D3BBD005E6135 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		DB990C95147D3BBD005E6135 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DB990C98147D3BBD005E6135 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		DB990C9B147D3BBD005E6135 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		DB990CA2147D3D44005E6135 /* AddArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddArray.h; sourceTree = "<group>"; };
+		DB990CA3147D3D44005E6135 /* AddArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				DB990C97147D3BBD005E6135 /* FirstView.xib */,
 				DB990C9A147D3BBD005E6135 /* SecondView.xib */,
 				DB990C83147D3BBD005E6135 /* Supporting Files */,
+				DB990CA2147D3D44005E6135 /* AddArray.h */,
+				DB990CA3147D3D44005E6135 /* AddArray.m */,
 			);
 			path = newcode;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				DB990C8D147D3BBD005E6135 /* newcodeAppDelegate.m in Sources */,
 				DB990C93147D3BBD005E6135 /* FirstViewController.m in Sources */,
 				DB990C96147D3BBD005E6135 /* SecondViewController.m in Sources */,
+				DB990CA4147D3D44005E6135 /* AddArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

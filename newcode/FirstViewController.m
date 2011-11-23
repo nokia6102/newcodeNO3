@@ -7,16 +7,20 @@
 //
 
 #import "FirstViewController.h"
-
+@class AddArray;
 @implementation FirstViewController
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-}
-*/
+     AddArray *addArray1=[[AddArray alloc] init]; 
+  
+    [addArray1 addArray:@"a"] ;
+  
+ }
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
