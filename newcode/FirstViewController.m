@@ -16,9 +16,10 @@
 {
     [super viewDidLoad];
      AddArray *addArray1=[[AddArray alloc] init]; 
-  
-    [addArray1 addArray:@"a"] ;
-  
+    [addArray1 addArray:@"A"] ;
+    [addArray1 addArray:@"B"] ;
+    [addArray1 addArray:@"C"] ;
+    [addArray1 addArray:@"D"] ;
  }
 
 
@@ -39,7 +40,7 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-
+    [AddArray release]; 
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }

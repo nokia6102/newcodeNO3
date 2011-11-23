@@ -16,7 +16,8 @@
     self = [super init];
     if (self) {
         // Initialization code here.
-      NSMutableArray *totalArray = [[NSMutableArray alloc] init];
+//      NSMutableArray *totalArray = [[NSMutableArray alloc] init];
+      totalArray=[[NSMutableArray alloc]init] ;
     }
     
     return self;
@@ -29,9 +30,9 @@
 
   for(NSString *s in totalArray)
 	{
-		NSLog(@"%@",s);
+		NSLog(s,nil);
 	}
-
+  NSLog(@"-");
   return totalArray; 
  }
 @end
